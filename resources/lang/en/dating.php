@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'monday' => 'Monday',
+    'tuesday' => 'Tuesday',
+    'wednesday' => 'Wednesday',
+    'thursday' => 'Thursday',
+    'friday' => 'Friday',
+    'saturday' => 'Saturday',
+    'sunday' => 'Sunday',
+    'no_valid_date_specified' => 'No valid dates specified',
+    'cannot_multiple_participate' => 'You cannot participate multiple times or on the same week',
+    'cannot_multiple_cancel' => 'You cannot cancel multiple dates at the same time',
+    'date_is_already_participated' => 'Your request contains a participated day',
+    'date_closed' => 'The date you requested is closed',
+    'date_full' => 'The date you requested is full',
+    'too_many_date_requests' => 'Too many dates request on the same week',
+    'need_resolve_invoice' => 'You need to resolve all open invoices first!',
+    'need_send_feedback' => 'You need to send feedback first!',
+    'no_participate_permission' => 'You do not have permission to participate!',
+    'no_coupon_available' => 'No coupon available!',
+    'coupons_invalid' => 'Coupons invalid!',
+    'coupons_not_enough' => 'You need more coupons to have multiple date!',
+    'db_error' => 'DB error',
+    'date_blocked_or_full' => 'Date blocked or full',
+    'wrong_gender_or_recommendation' => 'Wrong Gender or Recommendation type!',
+];

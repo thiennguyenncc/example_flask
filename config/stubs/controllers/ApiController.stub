@@ -1,0 +1,10 @@
+<?php
+
+namespace Bachelor\Port\Primary\WebApi\Controllers\Api;
+
+use Bachelor\Port\Primary\WebApi\Controllers\BaseController;
+
+class {{name}}Controller extends BaseController
+{
+
+}

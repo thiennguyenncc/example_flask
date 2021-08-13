@@ -1,0 +1,19 @@
+<?php
+
+namespace Bachelor\Port\Secondary\Database\{{domainName}}\{{eloquentName}}\Repository;
+
+use Bachelor\Port\Secondary\Database\Base\BaseRepository;
+use Bachelor\Port\Secondary\Database\{{domainName}}\{{eloquentName}}\Interfaces\{{eloquentName}}Interface;
+use Bachelor\Port\Secondary\Database\{{domainName}}\{{eloquentName}}\Repository\{{eloquentName}};
+
+class {{eloquentName}}Repository extends BaseRepository implements {{eloquentName}}Interface
+{
+    /**
+     * Eloquent{{eloquentName}}Repository constructor.
+     * @param {{eloquentName}} $model
+     */
+    public function __construct({{eloquentName}} $model)
+    {
+        parent::__construct($model);
+    }
+}

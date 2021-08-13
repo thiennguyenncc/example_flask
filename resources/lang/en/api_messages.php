@@ -1,0 +1,172 @@
+<?php
+
+return [
+    'successful' => 'Successful',
+    'prefecture' => [
+        'not_found' => 'No such prefecture found',
+        'unable_to_create_prefecture' => 'Unable to create new prefecture',
+        'successfully_created_new_prefecture' => 'Successfully created new prefecture',
+        'unable_to_update_prefecture' => 'Unable to update prefecture',
+        'successfully_updated_prefecture' => 'Successfully updated the prefecture',
+        'prefecture_in_use' => 'Prefecture is in use',
+    ],
+    'area' => [
+        'not_found' => 'No such area found',
+        'unable_to_create_area' => 'Unable to create new area',
+        'successfully_created_new_area' => 'Successfully created new area',
+        'unable_to_update_area' => 'Unable to update area',
+        'successfully_updated_area' => 'Successfully updated the area',
+        'successfully_deleted_area' => 'Successfully deleted the area',
+    ],
+    'datingPlace' => [
+        'not_found' => 'No such dating place found',
+        'unable_to_create_dating_place' => 'Unable to create new dating place',
+        'successfully_created_new_dating_place' => 'Successfully created new dating place',
+        'unable_to_update_dating_place' => 'Unable to update dating place',
+        'successfully_updated_dating_place' => 'Successfully updated the dating place',
+        'successfully_deleted_dating_place' => 'Successfully deleted the dating place',
+        'unable_to_find_train_station' => 'Unable to find any train station for dating place :datingPlaceName in :language',
+    ],
+    'paymentCard' => [
+        'successfully_list_user_cards' => 'Successfully fetched list of user cards',
+        'error_year_required' => 'Please select year.',
+        'error_month_required' => 'Please select month.',
+        'error_require_date' => '',
+    ],
+    'userReview' => [
+        'successfully_created_new_user_review' => 'Successfully created new user review',
+    ],
+    'userCoupon' => [
+        'coupon_type_doesn\'t_exist' => 'Coupon type doesn\'t exist',
+        'no_user_coupon_found' => 'No user coupon found',
+        'not_enough_coupon_to_exchange' => 'Not enough coupon to exchange',
+        'no_coupons_found_for_the_user' => 'No coupons found for the user',
+        'unable_to_issue_dating_coupon_to_female_user' => 'Unable to issue dating coupon to female user',
+        'unable_to_purchase_dating_coupon_to_female_user' => 'Unable to process purchasing of dating coupon to female user',
+        'coupon_return_text' => 'Since I participated using the ticket, it will be returned around 21:00 today.',
+    ],
+    'dating' => [
+        'no_dating_found' => 'No dating found.',
+        'this_dating_has_already_been_completed' => 'This dating has already been completed',
+        'failed_to_get_dating_user' => 'Failed to get dating user',
+        'failed_to_get_dating_partner' => 'Failed to get dating partner',
+        'dating_male_user_already_exist_dating_in_this_dating_day' => 'Male is already scheduled for this date. Please select another day',
+        'dating_female_user_already_exist_dating_in_this_dating_day' => 'Female is already scheduled for this date. Please select another day',
+        'dating_male_and_female_user_already_exist_dating_in_this_dating_day' => 'Male and Female are already scheduled for this date. Please select another day'
+    ],
+    'user' => [
+        'problem_encountered_while_migrating_account' => 'Problem was encountered while migrating account for user id of migrating to account being :migrating_to_user_id and migrating from account being :migrating_from_user_id',
+        'successfully_updated_email' => 'Successfully updated email',
+        'email_update_failed' => 'Email update failed',
+        'invalid_status' => 'Invalid status',
+    ],
+    'registration' => [
+        'error_prefecture_required' => 'Prefecture is required',
+        'error_user_name_required' => 'User Name is required',
+        'min_age_is_required' => 'Min age is required',
+        'max_age_is_required' => 'Max age is required',
+        'min_height_is_required' => 'Min height is required',
+        'max_height_is_required' => 'Max height is required',
+        'face_preferences_is_required' => 'Face preferences are required',
+        'job_is_required' => 'Job is required',
+        'bodyType1_is_required' => 'Body Type is required',
+        'bodyType2_is_required' => 'Body Type is required',
+        'preferred_education_is_required' => 'Preferred Education is required',
+        'alcohol_is_required' => 'Alcohol is required',
+        'divorce_is_required' => 'Divorce is required',
+        'annual_income_is_required' => 'Annual Income is required',
+        'company_name_is_required' => 'Company Name is required',
+        'education_is_required' => 'Education is required',
+        'school_name_is_required' => 'School Name is required',
+        'smoking_is_required' => 'Smoking is required',
+        'images_is_required' => 'Images are required',
+        'error_require_email' => 'Please enter your email.',
+        'error_require_name' => 'Please enter your name.',
+        'error_exists_email' => 'Email already exists.',
+        'error_invalid_email' => 'Please enter a valid email address.',
+        'error_while_storing_registration_data' => 'Error while storing registration data for step :step of registration',
+    ],
+    'matched_preference' => [
+        'greaduated_from' => [
+            1 => 'Graduated from :school',
+            2 => 'Graduated from :school',
+        ],
+        'no_history_divorce' => [
+            1 => 'He has no history of divorce.',
+            2 => 'She has no history of divorce.',
+        ],
+        'age_is' => [
+            1 => "His age is ':age'.",
+            2 => "Her age is ':age'.",
+        ],
+        'height_is' => [
+            1 => "Height is ':height' cm.",
+            2 => "Height is ':height' cm.",
+        ],
+        'character_are' => [
+            1 => "Character is ':character'.",
+            2 => "Character is ':character'.",
+        ],
+        'body_shap_is' => [
+            1 => "Body Shape is ':body_shap'.",
+            2 => "Body Shape is ':body_shap'.",
+        ],
+        'dont_smoke' => [
+            1 => 'He don\'t smoke.',
+            2 => 'She don\'t smoke.',
+        ],
+        'alcohol_prefrence_is' => [
+            1 => "Alcohol Preference is ':drink'.",
+            2 => "Alcohol Preference is ':drink'.",
+        ],
+        'marriage_intention_prefrence_is' => [
+            1 => "Merriage Intention Prefrence is ':merriage'.",
+            2 => "Merriage Intention Prefrence is ':merriage'.",
+        ],
+        'hobby_preference_is' => [
+            1 => "Hobby is ':hobby'.",
+            2 => "Hobby is ':hobby'.",
+        ],
+        'face_preference_is' => [
+            1 => "Face Prefrence is ':face_preference'.",
+            2 => "Face Prefrence is ':face_preference'.",
+        ],
+        'educational_background_is_medium_standard_uni' => [
+            1 => "His educational background is 'Graduated Medium Standard uni'.",
+            2 => "Her educational background is 'Graduated Medium Standard uni'.",
+        ],
+        'educational_background_is_highly_educated' => [
+            1 => "His educational background is 'Highly educated'.",
+            2 => "Her educational background is 'Highly educated'.",
+        ],
+        'annual_income_is' => [
+            1 => "Annual Income is ':partnerIncome.'",
+            2 => "Annual Income is ':partnerIncome'.",
+        ],
+    ],
+    'femaleProfilePageStatus' => [
+        'approved' => 'Approved',
+        'pre-approved' => 'Pre-approved',
+        'deactivated' => 'Deactivated',
+    ],
+    'feedback' => [
+        'cant_send_feedback' => 'Can\'t send feedback',
+    ],
+    'did_you_use_cafe' => 'The following parks are nearby.',
+    'also_next_cafe_near' => 'There are the following cafes near you.',
+    'ask_current_cafe' => 'couldn\'t you use it?',
+    'cancel_deactivate_account' => [
+        'cant_deactivate_account' => 'User can\'t deactivate account',
+        'cant_cancel_account' => 'User can\'t cancel account',
+        'you_have_to_cancel_participation' => 'You have to cancel participation',
+        'you_have_to_cancel_participation_for_rematch' => 'You have to cancel participation for rematch',
+        'you_have_to_cancel_dating' => 'You have to cancel dating',
+        'you_have_to_give_feedback' => 'You have to give feedback',
+    ],
+    'stripe' => [
+        'user_does_not_has_plan' => 'User does not has plan',
+        'cost_plan_key_incorrect' => 'Cost plan key is incorrect',
+        'user_does_not_exist' => 'User does not exist',
+        'user_has_payment_customer_already' => 'User has payment customer already',
+    ],
+];

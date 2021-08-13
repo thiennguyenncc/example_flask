@@ -1,0 +1,10 @@
+<?php
+
+namespace Bachelor\Application\User\Services;
+
+use Bachelor\Application\User\Services\Interfaces\{{name}}ServiceInterface;
+
+class {{name}}Service implements {{name}}ServiceInterface
+{
+
+}

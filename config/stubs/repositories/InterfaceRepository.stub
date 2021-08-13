@@ -1,0 +1,10 @@
+<?php
+
+namespace Bachelor\Port\Secondary\Database\{{domainName}}\{{interfaceName}}\Interfaces;
+
+use Bachelor\Port\Secondary\Database\Base\BaseRepositoryInterface;
+
+interface {{interfaceName}}Interface extends BaseRepositoryInterface
+{
+    
+}

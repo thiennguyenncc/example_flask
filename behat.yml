@@ -1,0 +1,19 @@
+default:
+  extensions:
+    Vanare\BehatCucumberJsonFormatter\Extension:
+      fileNamePrefix: report
+      outputDir: build/tests
+    Laracasts\Behat:
+     env_path: .env.behat
+  suites:
+    Authentication:
+      contexts:
+        - Authentication\AuthenticationContext
+      filters:
+        { tags: '@authentication&&~@wip&&~@fixme' }
+    default:
+      contexts:
+        - UnitContexts\BaseContext
+      filters:
+        { tags: '@routes&&~@wip' }
+
